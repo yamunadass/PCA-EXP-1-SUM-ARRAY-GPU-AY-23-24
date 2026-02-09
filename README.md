@@ -257,10 +257,14 @@ int main(int argc, char **argv)
 ```
 ## OUTPUT:
 
+<img width="1117" height="121" alt="image" src="https://github.com/user-attachments/assets/e5a9e0ac-9c60-4d45-99fa-cc2b96caab55" />
 <img width="1121" height="125" alt="image" src="https://github.com/user-attachments/assets/22f3d442-4cd8-4df6-a72e-3d50dcc6c5e7" />
 <img width="1114" height="123" alt="image" src="https://github.com/user-attachments/assets/76f4a542-7a69-4218-bbb9-24470adf4c66" />
 <img width="1109" height="120" alt="image" src="https://github.com/user-attachments/assets/b7d546c5-8f27-464f-8378-3ea2332595ff" />
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.Like the comparison is about,
+Fastest configuration: 13358 blocks × 1256 threads — 0.007381 s
+Second best: 16384 blocks × 1024 threads — 0.007573 s
+Slowest configuration: 16401 blocks × 1023 threads — 0.008005 s
